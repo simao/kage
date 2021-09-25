@@ -6,6 +6,9 @@ import kage.format.AgeKey.Companion.FOOTER_PREFIX
 import kage.format.AgeKey.Companion.RECIPIENT_PREFIX
 import kage.format.AgeKey.Companion.VERSION_LINE
 import kage.format.ParseUtils.splitArgs
+import kage.exception.InvalidFooterException
+import kage.exception.InvalidRecipientException
+import kage.exception.InvalidVersionException
 
 public data class AgeHeader(val recipients: List<AgeStanza>, val mac: ByteArray) {
 

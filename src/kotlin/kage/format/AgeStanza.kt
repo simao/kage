@@ -7,6 +7,8 @@ import kage.format.AgeKey.Companion.FOOTER_PREFIX
 import kage.format.AgeKey.Companion.RECIPIENT_PREFIX
 import kage.format.ParseUtils.isValidArbitraryString
 import kage.format.ParseUtils.splitArgs
+import kage.exception.InvalidArbitraryStringException
+import kage.exception.InvalidRecipientException
 
 public data class AgeStanza(val type: String, val args: List<String>, val body: ByteArray) {
 

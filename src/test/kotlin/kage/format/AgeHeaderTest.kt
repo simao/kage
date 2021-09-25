@@ -1,5 +1,6 @@
 package kage.format
 
+import kage.exception.InvalidFooterException
 import java.util.Base64
 import kotlin.test.Test
 import kotlin.test.assertEquals

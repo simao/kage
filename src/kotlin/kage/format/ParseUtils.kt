@@ -1,5 +1,7 @@
 package kage.format
 
+import kage.exception.InvalidArbitraryStringException
+
 internal object ParseUtils {
   /*
    * Splits a line over ' ' and returns a pair with the line prefix and the arguments

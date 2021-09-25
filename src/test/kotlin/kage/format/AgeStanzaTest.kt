@@ -1,5 +1,8 @@
 package kage.format
 
+import kage.exception.InvalidArbitraryStringException
+import kage.exception.InvalidRecipientException
+import kage.exception.ParseException
 import java.util.Base64
 import kotlin.test.Test
 import kotlin.test.assertEquals
