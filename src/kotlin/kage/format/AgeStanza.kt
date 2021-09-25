@@ -2,13 +2,13 @@ package kage.format
 
 import java.io.BufferedReader
 import java.util.Base64
+import kage.errors.InvalidArbitraryStringException
+import kage.errors.InvalidRecipientException
 import kage.format.AgeKey.Companion.BYTES_PER_LINE
 import kage.format.AgeKey.Companion.FOOTER_PREFIX
 import kage.format.AgeKey.Companion.RECIPIENT_PREFIX
 import kage.format.ParseUtils.isValidArbitraryString
 import kage.format.ParseUtils.splitArgs
-import kage.exception.InvalidArbitraryStringException
-import kage.exception.InvalidRecipientException
 
 public data class AgeStanza(val type: String, val args: List<String>, val body: ByteArray) {
 

@@ -1,7 +1,7 @@
 package kage.format
 
-import kage.exception.InvalidFooterException
 import java.util.Base64
+import kage.errors.InvalidFooterException
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertFailsWith

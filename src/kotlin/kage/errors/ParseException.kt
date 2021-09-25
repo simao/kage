@@ -1,4 +1,4 @@
-package kage.exception
+package kage.errors
 
 public sealed class ParseException
 @JvmOverloads

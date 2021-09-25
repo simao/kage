@@ -1,6 +1,6 @@
 package kage.format
 
-import kage.exception.InvalidArbitraryStringException
+import kage.errors.InvalidArbitraryStringException
 
 internal object ParseUtils {
   /*

@@ -1,9 +1,9 @@
 package kage.format
 
-import kage.exception.InvalidArbitraryStringException
-import kage.exception.InvalidRecipientException
-import kage.exception.ParseException
 import java.util.Base64
+import kage.errors.InvalidArbitraryStringException
+import kage.errors.InvalidRecipientException
+import kage.errors.ParseException
 import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertFailsWith

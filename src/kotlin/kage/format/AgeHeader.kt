@@ -2,13 +2,13 @@ package kage.format
 
 import java.io.BufferedReader
 import java.util.Base64
+import kage.errors.InvalidFooterException
+import kage.errors.InvalidRecipientException
+import kage.errors.InvalidVersionException
 import kage.format.AgeKey.Companion.FOOTER_PREFIX
 import kage.format.AgeKey.Companion.RECIPIENT_PREFIX
 import kage.format.AgeKey.Companion.VERSION_LINE
 import kage.format.ParseUtils.splitArgs
-import kage.exception.InvalidFooterException
-import kage.exception.InvalidRecipientException
-import kage.exception.InvalidVersionException
 
 public data class AgeHeader(val recipients: List<AgeStanza>, val mac: ByteArray) {
 
